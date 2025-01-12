@@ -14,7 +14,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "font-awesome/css/font-awesome.min.css";
 import "./footer.css";
-import "./All.css"
+import "./all.css"
 // React component for Footer
 function Footer() {
   return (

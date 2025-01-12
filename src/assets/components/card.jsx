@@ -1,4 +1,4 @@
-import "./All.css";
+import "./all.css";
 import 'font-awesome/css/font-awesome.min.css';
 
 // Removed TypeScript-specific code (like the interface)
