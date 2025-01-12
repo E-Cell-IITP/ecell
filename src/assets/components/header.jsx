@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import "./All.css"
+import "./all.css"
 // import { Link } from 'react-router-dom';
 // import Coming from './Comings00n';
 // import Team from './Team';
