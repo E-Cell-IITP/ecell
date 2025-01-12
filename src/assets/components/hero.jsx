@@ -1,8 +1,8 @@
 import React from "react";
 import "./hero.css";
 // import img from "./img-home.jpg"; // Adjust the path as needed
-import img from '../react.svg'
-const Hero = () => {
+
+const App = () => {
   return (
     <main className="main-bg">
       {/* HOME */}
@@ -12,13 +12,11 @@ const Hero = () => {
             Innovate <br /> Connect Explore
           </h1>
           <div className="home__img">
-            <img src={img} alt="Fashion" />
+            <img src="/img-home.jpg" alt="Fashion" />
           </div>
         </div>
         <div className="home__secondary">
-          <a className="home__scroll" href="#about">
-            SCROLL DOWN
-          </a>
+          
           <span className="home__year">2025</span>
         </div>
       </div>
@@ -26,4 +24,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default App;

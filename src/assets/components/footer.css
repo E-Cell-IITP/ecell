@@ -1,0 +1,8 @@
+.container-footer{
+    display: flex
+    ;
+        z-index: 1;
+        position: relative;
+        justify-content: center;
+        /* background-image: url('/src/assets/istockphoto-1337475689-612x612.jpg'); */
+}

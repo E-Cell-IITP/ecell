@@ -1,7 +1,19 @@
-body{
-  background-color: rgb(239, 169, 169);
+body {
+  background-color: #000000;
 }
 
+.hero {
+  position: relative;
+  font-family: Raleway;
+  display: block;
+  font-family: var(--body-font);
+  font-weight: initial;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  top: -27px;
+  margin-bottom: 50px;
+}
 
 .icon-enlarged {
   transform: scale(1.5); /* Enlarges the icon */
@@ -12,7 +24,7 @@ body{
   flex-direction: column;
   align-items: center;
 }
-.wrapper h1{
+.wrapper h1 {
   color: white;
   font-size: 100px;
 }
@@ -30,7 +42,7 @@ body{
 }
 
 .stub2 {
-  height: 1000px;
+  height: 500px;
 }
 
 .circle {
@@ -67,14 +79,13 @@ body{
   .message-right,
   .message-left {
     position: static; /* Reset absolute positioning for centering */
-    margin: 0 auto;   /* Center horizontally */
-    width: 90%;       /* Adjust width for smaller screens */
+    margin: 0 auto; /* Center horizontally */
+    width: 90%; /* Adjust width for smaller screens */
   }
   .container {
     display: flex;
     justify-content: center; /* Center the messages container */
-    flex-direction: column;  /* Stack messages vertically */
+    flex-direction: column; /* Stack messages vertically */
     align-items: center;
   }
 }
-

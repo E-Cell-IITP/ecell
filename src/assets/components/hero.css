@@ -1,11 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Tinos:wght@400;700&display=swap");
-/*----- VARIABLES CSS -----*/
-/* Variables */
+
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 :root {
   /* Colors */
-  --first-color: #010a43;
-  --second-color: #ffc2c2;
+  --first-color: #3333cc;
+  --second-color: #ff00cc;
   --white-color: #fff;
   /* Font and typography */
   --body-font: "Tinos", serif;
@@ -28,19 +27,11 @@
   }
 }
 
-/*----- BASE -----*/
+
 *,
 ::before,
 ::after {
   box-sizing: border-box;
-}
-
-body {
-  font-family: Raleway;
-  margin: 3.5rem 0 0 0;
-  font-family: var(--body-font);
-  font-weight: initial;
-  overflow: hidden;
 }
 
 h1,
@@ -68,7 +59,7 @@ p {
   font-size: var(--normal-font-size);
 }
 
-/*----- LAYOUT -----*/
+
 .bd-grid {
   max-width: 1200px;
   margin-left: 1rem;
@@ -85,8 +76,8 @@ p {
   z-index: var(--z-fixed);
 }
 
-/*----- PAGES -----*/
-/*Nav*/
+
+
 .nav {
   height: 3.5rem;
   display: flex;
@@ -120,11 +111,11 @@ p {
 
 .nav__link {
   padding: 0.5rem;
-  color: var(--white-color);
+  color: #ffc2c2;
 }
 
 .nav__logo {
-  color: var(--white-color);
+  color: #ffc2c2;
 }
 
 .nav__toggle {
@@ -137,12 +128,12 @@ p {
   text-align: right;
 }
 
-/*Aparecer menu*/
+
 .show {
   left: 0;
 }
 
-/*Home*/
+
 .home {
   position: relative;
   display: grid;
@@ -153,7 +144,7 @@ p {
 .home__primary {
   width: 0;
   /* Animation */
-  background-color: var(--first-color);
+  background-color: #010a43;
   display: flex;
   justify-content: space-evenly;
   align-items: center;

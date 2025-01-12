@@ -161,7 +161,7 @@ export default function Time() {
     <div className="App">
       <TimelineObserver
         initialColor="#e5e5e5"
-        fillColor="#4dff03"
+        fillColor="#ff00cc"
         handleObserve={(setObserver) => (
           <Timeline
             callback={onCallback}

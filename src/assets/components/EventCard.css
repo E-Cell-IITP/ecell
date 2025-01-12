@@ -5,13 +5,7 @@
   font-family: consolas;
 }
 
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  background: #1d061a;
-}
+
 
 .card-container {
   display: flex;
@@ -25,7 +19,7 @@ body {
 .card-container .box {
   position: relative;
   width: 500px; /* Increased width */
-  height: 230px; /* Reduced height */
+  height: 250px; /* Reduced height */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -76,7 +70,7 @@ body {
 
 .card-container .box:nth-child(1)::before,
 .card-container .box:nth-child(1)::after {
-  background: linear-gradient(315deg, #4dff03, #00d0ff);
+  background: linear-gradient(315deg, #ff00cc, #333399);
 }
 
 .card-container .box span {
@@ -149,14 +143,19 @@ body {
 
 .card-container .box .content {
   position: relative;
-  left: 0;
-  padding: 30px 30px; /* Adjusted padding for shorter height */
+  margin: 0 auto; /* Centers horizontally */
+  padding: 30px; /* Simplified padding for balanced spacing */
+  display: flex; /* Enables flexible alignment */
+  flex-direction: column; /* Aligns items vertically */
+  align-items: center; /* Centers content horizontally */
+  justify-content: center; /* Centers content vertically */
   background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(10px);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   z-index: 1;
-  transform: 0.5s;
+  transform: translateX(0); /* Removes left positioning issue */
+  transition: transform 0.5s ease; /* Fixed property for smooth transition */
   color: #fff;
 }
 

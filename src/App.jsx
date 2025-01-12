@@ -1,13 +1,20 @@
-import React from "react";
-import Time from "./time";
-import Hero from "./assets/components/hero";
-export default function App(){
+import { BrowserRouter , Routes, Route } from "react-router-dom";
+import Home from "./assets/pages/homepage";
+import Team from "./assets/components/team";
+import Register from "./assets/pages/register";
+
+export default function App() {
   return (
-    <>
-      
-      <Hero />
-      <Time />
-    </>
-    
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route index element={<Home />} />
+        <Route path="team" element={<Team />} />
+        <Route path="register" element={<Register />} />
+        
+        
+        
+      </Routes>
+    </BrowserRouter>
+  
+  );
 }
