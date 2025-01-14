@@ -259,3 +259,22 @@
   font-size: 0.875rem;
   color: var(--text-color, #666);
 }
+
+@media screen and (width:768px) {
+  .timeline {
+    height: 273px;
+    width: 5px;
+    /* background-color: #e5e5e5; */
+}
+.card-container .box:hover .content {
+  /* left: -15px; */
+  padding: 70px 20px; /* Reduced extra padding for hover effect */
+}
+
+.card-container .box:hover::before,
+.card-container .box:hover::after {
+  transform: skewX(0deg);
+  
+  width: calc(100% - 200px);
+}
+}

@@ -45,7 +45,7 @@ function Footer() {
                   <i className="fas fa-square"></i>
                   <div className="media-body">
                     Home{" "}
-                    <a className="turquoise" href="/home">
+                    <a className="turquoise" href="/">
                       Here
                     </a>
                   </div>
